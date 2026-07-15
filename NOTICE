@@ -1,0 +1,38 @@
+Red App Wallet
+Copyright (C) 2026 RedApp (imtrixy) <https://github.com/imtrixy>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+-------------------------------------------------------------------------------
+
+ATTRIBUTION — Original Work
+
+This project is a fork of MyTONWallet (now "My Wallet"):
+
+  Project name:   MyTONWallet / My Wallet
+  Organization:   mytonwallet-org
+  Repository:     https://github.com/mytonwallet-org/mytonwallet
+  License:        GNU General Public License v3.0
+  Copyright:      Copyright (C) 2022–2026 MyTONWallet Contributors
+
+Significant modifications made by Red App (imtrixy):
+  - Removed Android and iOS native Capacitor wrappers
+  - Rebranded to "Red App Wallet" (web-only build)
+  - Updated accent color and branding
+  - Integrated with Red App mini app ecosystem
+  - Added Bio Coin support (planned)
+
+In accordance with the terms of the GNU GPL v3, the full source code of
+this modified version is available at:
+  https://github.com/imtrixy/RedApp-Wallet-

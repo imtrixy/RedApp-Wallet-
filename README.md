@@ -1,125 +1,80 @@
-# **My Wallet** · [mywallet.io](https://mywallet.io)
+# **Red App Wallet** · [imtrixy/RedApp-Wallet-](https://github.com/imtrixy/RedApp-Wallet-)
 
-**All you need to enjoy crypto.** A safe, self-custodial **multichain wallet** for 11 blockchains, including [**Ethereum**](https://ethereum.org/), [**Solana**](https://solana.com/), [**Hyperliquid**](https://hyperliquid.xyz/), [**TON**](https://ton.org), [**TRON**](https://trondao.org/), [**Base**](https://base.org/), and more — native mobile (iOS & Android), desktop, web, and **Telegram Mini App**. One account, any device.
-
-<img src="https://mywallet.io/img/og-image.png" width="600" alt="My Wallet — All You Need to Enjoy Crypto" />
-
-You keep full control: we **do not** have access to your funds, keys, or data. **My Wallet** is built for **speed** and **reliability**, with a minimal dependency footprint for maximum safety.
+**All you need to enjoy crypto.** A secure, self-custodial **multichain wallet** — web-first, open source, and built for the Red App ecosystem.
 
 ---
 
-## Why **My Wallet**?
+## Why **Red App Wallet**?
 
 **🌐 One wallet for everything**  
-Keep Ethereum, Solana, Hyperliquid, TON, TRON, Base, BNB Chain, Polygon, Avalanche, Arbitrum, and Monad in one place. You can send, receive, and swap across chains without jumping between different apps.
+Keep TON, Ethereum, Solana, TRON, Base, BNB Chain, Polygon, and more in one place. Send, receive, and swap across chains without jumping between different apps.
 
-**📱 Use it wherever you are**  
-**My Wallet** works as a native mobile app, desktop app, web app, Telegram Mini App, and browser extension for all major browsers, so your wallet is always within reach.
+**🔐 Self-custodial by design**  
+We do **not** have access to your funds, keys, or data. You are always in control.
+
+**🌍 Web-first**  
+Red App Wallet runs entirely as a web app — no native Android or iOS installation required. Open it in any browser or as a mini app inside Red App.
 
 **⚡ Instant transfers**  
-Transfers and swaps feel almost instant across supported chains, so you can send crypto and other assets in less than a second in typical conditions.
-
-**🤖 Built-in smart Agent**  
-Talk to Agent in natural language to send assets, swap, stake, open Explore, and jump to token pages. It is non-custodial by design: you always review and confirm every action.
-
-**🪙 Gasless transfers**  
-Send supported tokens on TON and Solana without holding native gas tokens, with fees covered from the transferred token where available.
-
-**💳 Easy on-ramp and off-ramp**  
-Buy crypto with a bank card and withdraw back to card where supported, via providers like MoonPay.
+Transfers and swaps feel almost instant across supported chains.
 
 **🔄 Smart swaps**  
 Swap inside the app with an aggregator that finds efficient routes across supported chains.
 
 **📊 Portfolio tracking**  
-Follow your portfolio and net worth over time in the base fiat currency you choose.
+Follow your portfolio and net worth over time in the fiat currency you choose.
 
 **💰 High-yield staking**  
-Stake TON and other supported assets, including options like USDe, directly in the wallet.
+Stake TON and other supported assets directly in the wallet.
 
-**🛡️ Industry-leading security**  
-**My Wallet** uses advanced security practices audited by CertiK. We also run a [bug bounty on CertiK SkyShield](https://skyshield.certik.com/bounties/mytonwallet) with **$100K** in reserved funds and rewards of up to **$5,000**. The program has been live since **March 23, 2024**, and no vulnerabilities have been found to date.
-
-**🧰 Hundreds of handy features**  
-Connect Ledger hardware wallets, hide balances, personalize interface, send multiple transfers at once, view other wallets, use AI plugins for OpenClaw, ChatGPT, and Claude, and much more.
-
-**⭐ Trusted by millions**  
-**My Wallet** has a **4.8** rating on [Trustpilot](https://www.trustpilot.com/), strong App Store and Google Play rankings, and **9M+ users** worldwide.
+**🛡️ Security first**  
+Built on the battle-tested MyTONWallet codebase — audited, minimal dependency footprint.
 
 ---
 
 ## 🔗 Links
 
-- 📲 **Get the app**: [get.mywallet.io](https://get.mywallet.io/)
-- 📚 **Help Center**: [help.mywallet.io](https://help.mywallet.io)
-- 🛟 **24/7 Support**: [t.me/mysupport](https://t.me/mysupport)
-- 💬 **Telegram**: [t.me/mytonwalleten](https://t.me/mytonwalleten)
-- 🐦 **X (Twitter)**: [x.com/mytonwallet_io](https://x.com/mytonwallet_io)
-- 📰 **Blog & updates**: [mywallet.io](https://mywallet.io)
+- 💬 **Telegram**: [t.me/redapp](https://t.me/redapp)
+- 🐦 **X (Twitter)**: coming soon
+- 🐙 **GitHub**: [github.com/imtrixy/RedApp-Wallet-](https://github.com/imtrixy/RedApp-Wallet-)
+
+---
+
+## 📜 License
+
+**GNU General Public License v3.0** — see [LICENSE](LICENSE).
+
+This project is based on [MyTONWallet](https://github.com/mytonwallet-org/mytonwallet) (now "My Wallet"), which is also licensed under GPL-3.0. See [NOTICE](NOTICE) for full attribution.
 
 ---
 
 ## 🛠️ For developers
 
-### 📑 Table of contents
-
-- ⚙️ [Requirements](#requirements)
-- 🧩 [Local Setup](#local-setup)
-- 🚀 [Dev Mode](#dev-mode)
-- 🐧 [Linux](#linux-desktop-troubleshooting)
-- 🖥️ [Electron](https://github.com/mytonwallet-org/mytonwallet/blob/master/docs/electron.md)
-- 🔐 [Verifying GPG Signatures](https://github.com/mytonwallet-org/mytonwallet/blob/master/docs/gpg-check.md)
-- ❤️ [Support Us](#support-us)
-
-## Requirements
+### Requirements
 
 Ready to build on **macOS** and **Linux**.
 
-To build on **Windows**, you will also need:
+### Setup
 
-- Any terminal emulator with bash (Git Bash, MinGW, Cygwin)
-- A zip utility (for several commands)
-
-## Local Setup
-### NPM Local Setup
 ```sh
 cp .env.example .env
-
 npm ci
 ```
 
-## Dev Mode
+### Dev Mode
 
 ```sh
 npm run dev
 ```
 
-## Linux Desktop Troubleshooting
+### Production Build
 
-**If the app does not start after click:**
-
-Install the [FUSE 2 library](https://github.com/AppImage/AppImageKit/wiki/FUSE).
-
-**If the app does not appear in the system menu or does not process ton:// and TON Connect deeplinks:**
-
-Install [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) and install the AppImage file through it.
-
-```bash
-sudo add-apt-repository ppa:appimagelauncher-team/stable
-sudo apt-get update
-sudo apt-get install appimagelauncher
+```sh
+npm run build
 ```
 
-**If the app does not connect to Ledger:**
+---
 
-Copy the udev rules from the [official repository](https://github.com/LedgerHQ/udev-rules) and run the file `add_udev_rules.sh` with root rights.
+## 🤝 Contributing
 
-```bash
-git clone https://github.com/LedgerHQ/udev-rules
-cd udev-rules
-sudo bash ./add_udev_rules.sh
-```
-
-## Support Us
-
-If you like what we do, feel free to contribute by creating a pull request, or just support us using this TON wallet: `EQAIsixsrb93f9kDyplo_bK5OdgW5r0WCcIJZdGOUG1B282S`. We appreciate it a lot!
+Pull requests are welcome! This is an open-source project under GPL-3.0. Please read the license before contributing.
